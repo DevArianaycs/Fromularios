@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@400;500;600;700;800&display=swap');
+body{
+background: #E8CBC0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height:100vh; /*que se adapte a la pantalla: RESPONSIVE*/
+color: white;
+}
+form{
+    
+    background-color: whitesmoke;
+    width: 40%;
+    margin:50px auto 50px auto;
+    padding: 20px 10px;
+
+    
+    
+    
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+
+    background-color: rgba(0, 0, 0, 0.5); /* Rojo con una opacidad del 50% */
+    padding: 20px;
+    border-radius: 10px;
+
+    border-radius: 10px;
+    
+}
+
+input{
+    display: inline-block;
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 2px;
+    background: none;
+    border: none;
+    transition:  1s linear;
+}
+
+input:focus{
+    outline: none;
+border-bottom: black solid 1px;
+
+
+}
+
+input[type=submit]{
+    background: #E8CBC0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100vh; /*que se adapte a la pantalla: RESPONSIVE*/
+
+
+    height: 50px;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    
+    border: black solid 2px;
+    cursor: pointer;
+}
